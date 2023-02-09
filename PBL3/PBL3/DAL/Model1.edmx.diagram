@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="60270274095644e1ab29023275939307" Name="Diagram1">
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.ACCOUNT" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.BILL" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.CUSTOMER" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.FOOD" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.FOODCATEGORY" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.MENUDETAIL" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.PARTY" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tabbhnnhgv3Model.SANH" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__BILL__IDTK__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__BILL__IDBILL__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__BILL__IDKH__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__BILL__IDPARTY__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__BILL__PayDay__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__MENUDETAI__IDBIL__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__FOOD__Material__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="tabbhnnhgv3Model.FK__MENUDETAI__Thanh__5165187F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
